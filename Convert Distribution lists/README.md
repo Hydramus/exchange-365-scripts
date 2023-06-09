@@ -45,6 +45,16 @@ To use the script, you have various parameters at your disposal:
 .\ConvertDLto365Group.ps1 -ListAll
 ```
 
+### Common Reasons for ineligibility:
+
+ - Nested distribution lists
+ - Distribution lists with more than 100 owners
+ - Dynamic distribution lists
+ - Distribution lists with more than 100,000 members
+ - Distribution lists with recipient
+ - Distribution lists with recipient management delegation
+ - Distribution lists with moderation enabled
+ - Distribution lists with mail flow rules
 
 ## Logging
 
